@@ -1,9 +1,138 @@
 @media screen and (max-width:750px) and (min-width: 300px) {
-    .Desktop {
+    
+
+    .NavBar-Onglets{
         display: none;
     }
 
-    .Responcive {
+    .Menu {
         display: unset;
+    }
+
+    .HomePage {
+        height: 90vh;
+        background: url('../../images/mobile/image-header.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+    .Text-HomePage {
+        text-align: center;
+        padding-top: 20vh;
+    }
+
+    .Paragraph-HomePage {
+        font-size: 2em;
+        letter-spacing: 5px;
+        font-family: 'Bralow';
+        margin-bottom: 20vh;
+    }
+
+    /* Main */
+
+    .Info-Container {
+        grid: auto / 1fr;
+    }
+
+    .Info {
+        display: none;
+    }
+
+    .Info-Responcive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+        width: 100%;
+    }
+    
+    .Info-Responcive > img {
+        width: 100%;
+    }
+
+    .Text-Info {
+        margin: 10% 0;
+        height: 35vh;
+        width: 80%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .Info-Design {
+        background: url('../../images/mobile/image-graphic-design.jpg');
+        width: 100vw;
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .Design {
+        text-align: center;
+        margin-top: -20vh;
+    }
+
+    .DesignText {
+        width: 90%;
+        margin: 140% auto;
+        color: hsl(167, 40%, 24%);
+    }
+
+    .Info-Photography {
+        background: url('../../images/mobile/image-photography.jpg');
+        width: 100vw;
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .Photography {
+        text-align: center;
+        margin-top: -20vh;
+    }
+
+    .PhotographyText {
+        width: 90%;
+        margin: 140% auto;
+        color: hsl(198, 62%, 26%);
+    }
+
+    .Client {
+        margin: 30px;
+    }
+
+    .Client-Title {
+        margin: 50px 0;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .Client-Profil {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .Client-Profil > li {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .Top-About {
+        grid: auto / 1fr 1fr;
+    }
+
+    .SVG {
+        width: 50%;
+    }
+    
+    .Onglet-About {
+        width: 60%;
+    }
+
+    .Resaux-About {
+        width: 40%;
     }
 }
