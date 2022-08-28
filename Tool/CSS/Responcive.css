@@ -1,0 +1,9 @@
+@media screen and (max-width:750px) and (min-width: 300px) {
+    .Desktop {
+        display: none;
+    }
+
+    .Responcive {
+        display: unset;
+    }
+}

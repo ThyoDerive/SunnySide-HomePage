@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,opsz,wght@0,9..144,900;1,9..144,700&display=swap');
+
+/* Prérequis */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Fraunces';
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+li {
+    list-style-type: none;
+}
+
+.Responcive {
+    display: none;
+}
+
+/* Header */
+
+nav {
+    font-family: 'Barlow';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+}
+
+.NavBar-Container {
+    display: flex;
+    align-items: center;
+}
+
+.NavBar-Onglets {
+    list-style-type: none;
+    margin-right: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.Onglet-Contact {
+    padding: 15px 25px;
+    background-color: white;
+    color: hsl(198, 62%, 26%);
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: 'Fraunces';
+}
+
+.HomePage {
+    height: 90vh;
+    background: url('../../images/desktop/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Text-HomePage {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Paragraph-HomePage {
+    color: white;
+    letter-spacing: 10px;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+}
+
+/* Main */
+
+.Info-Container {
+    display: grid;
+    grid: auto / 1fr 1fr;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    width: 100%;
+    height: 100%;
+}
+
+.Info > img {
+    width: 100%;
+}
+
+.Text-Info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.Text-Info > p {
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow';
+}
+
+.ButtonLearn {
+    color: hsl(212, 27%, 19%) !important;
+    font-family: 'Fraunces';
+    text-transform: uppercase;
+}
+
+.Design {
+    position: relative;
+    width: 100%;
+}
+
+.Design > img {
+    width: 100%;
+}
+
+.DesignText {
+    position: absolute;
+    width: 53%;
+    height: 25%;
+    top: 60%;
+    left: 24%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: hsl(167, 40%, 24%);
+}
+
+.Photography {
+    position: relative;
+    width: 100%;
+}
+
+.Photography > img {
+    width: 100%;
+}
+
+.PhotographyText {
+    position: absolute;
+    width: 53%;
+    height: 25%;
+    top: 60%;
+    left: 24%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: hsl(198, 62%, 26%);
+}
+
+.Client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin:90px;
+}
+
+.Client-Title {
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 50px 0;
+}
+
+.Client-Profil {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.Client-Profil > li {
+    margin: 0 50px;
+}
+
+.Logo-Profil {
+    border-radius: 50%;
+    width: 25%;
+    margin-bottom: 10%;
+}
+
+.Description-Profil {
+    color: hsl(232, 10%, 55%);
+    font-family: 'Barlow';
+    margin-bottom: 10%;
+}
+
+.Name-Profil {
+    margin-bottom: 3%;
+}
+
+.Job-Profil {
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow';
+}
+
+.About {
+    background: #90d4c5;
+}
+
+.Top-About {
+    display: grid;
+    grid: auto / 1fr 1fr 1fr 1fr;
+}
+
+.Img-About {
+    width: 100%;
+}
+
+.Bottom-About {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.Onglet-About {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: 0 auto;
+    color: hsl(168, 34%, 41%);
+    font-family: 'Barlow';
+}
+
+.Onglet-About > li:hover {
+    color: white;
+}
+
+.Resaux-About {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    margin: 0 auto;
+}
