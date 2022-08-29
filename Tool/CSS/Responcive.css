@@ -28,7 +28,7 @@
         width: 80vw;
         height: 60vh;
         background-color: white;
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         justify-content: center;
