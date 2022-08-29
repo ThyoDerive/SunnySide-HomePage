@@ -69,6 +69,13 @@ nav {
     border-radius: 50px;
     text-transform: uppercase;
     font-family: 'Fraunces';
+    transition: 0.2s ease-in-out;
+}
+
+.Onglet-Contact:hover {
+    background-color: rgba(255, 255, 255, 0.253);
+    color: white;
+    transition: 0.2s ease-in-out;
 }
 
 .HomePage {
@@ -118,6 +125,7 @@ nav {
 }
 
 .Text-Info {
+    color: hsl(212, 27%, 19%);
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -131,10 +139,35 @@ nav {
     font-family: 'Barlow';
 }
 
-.ButtonLearn {
+.ButtonLearnYellow, .ButtonLearnRed {
     color: hsl(212, 27%, 19%) !important;
-    font-family: 'Fraunces';
+    font-family: 'Fraunces' !important;
     text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    transition: 0.2s ease-in-out;
+}
+
+.ButtonLearnYellow:hover::after {
+    content: '';
+    background-color: hsl(51, 100%, 49%);
+    margin-top: -7px;
+    width: 130px;
+    border-radius: 20px;
+    height: 10px;
+    transform: translateX(-8px);
+    display: block;
+}
+
+.ButtonLearnRed:hover::after {
+    content: '';
+    background-color: hsl(7, 99%, 70%);
+    margin-top: -7px;
+    width: 130px;
+    border-radius: 20px;
+    height: 10px;
+    transform: translateX(-8px);
+    display: block;
 }
 
 .Info-Design {
@@ -272,10 +305,12 @@ nav {
     margin: 0 auto;
     color: hsl(168, 34%, 41%);
     font-family: 'Barlow';
+    cursor: pointer;
 }
 
 .Onglet-About > li:hover {
     color: white;
+    transition: 0.2s ease-in-out;
 }
 
 .Resaux-About {

@@ -76,7 +76,7 @@
 
     .DesignText {
         width: 90%;
-        margin: 140% auto;
+        margin: 60vh auto;
         color: hsl(167, 40%, 24%);
     }
 
@@ -95,9 +95,31 @@
     }
 
     .PhotographyText {
-        width: 90%;
-        margin: 140% auto;
+        width: 80%;
+        margin: 60vh auto;
         color: hsl(198, 62%, 26%);
+    }
+
+    .ButtonLearnYellow:hover::after {
+        content: '';
+        background-color: hsl(51, 100%, 49%);
+        margin-top: -7px;
+        width: 100px;
+        border-radius: 20px;
+        height: 10px;
+        transform: translateX(156%);
+        display: block;
+    }
+    
+    .ButtonLearnRed:hover::after {
+        content: '';
+        background-color: hsl(7, 99%, 70%);
+        margin-top: -7px;
+        width: 100px;
+        border-radius: 20px;
+        height: 10px;
+        transform: translateX(156%);
+        display: block;
     }
 
     .Client {
